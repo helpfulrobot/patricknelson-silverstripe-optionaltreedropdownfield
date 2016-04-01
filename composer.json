@@ -1,18 +1,25 @@
 {
-	"name": "richardsjoqvist/silverstripe-optionaltreedropdownfield",
+	"name": "patricknelson/silverstripe-optionaltreedropdownfield",
 	"type": "silverstripe-module",
-	"description": "This module extends TreeDropdownField to allow clearing a selection",
+	"description": "This module extends TreeDropdownField to allow clearing a selection.",
 	"homepage": "https://github.com/richardsjoqvist/silverstripe-optionaltreedropdownfield",
 	"keywords": ["silverstripe", "module", "treedropdownfield", "optionaltreedropdownfield"],
 	"authors": [
 		{
 			"name": "Richard Sjöqvist",
 			"homepage": "https://github.com/richardsjoqvist"
+		},
+		{
+			"name": "Patrick Nelson",
+			"homepage": "https://github.com/patricknelson"
 		}
 	],
 	"require": {
 		"php": ">=5.3.2",
 		"composer/installers": "*",
 		"silverstripe/framework": "^3.1.0"
+	},
+	"replace": {
+		"richardsjoqvist/silverstripe-optionaltreedropdownfield":"*"
 	}
 }
